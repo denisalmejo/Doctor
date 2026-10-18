@@ -1,0 +1,113 @@
+body{
+        margin: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: whitesmoke; 
+        color: #333;
+    }
+
+.navbar {
+            background-color: orange; 
+            padding: 0.5em 0;
+        }
+
+.navbar ul  {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex; 
+                justify-content: center;
+            }
+
+.navbar li  {
+                margin: 0 15px;
+            }
+
+.navbar a   {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                padding: 10px 15px;
+                transition: background-color 0.3s ease;
+                border-radius: 5px;
+            }
+
+.navbar a:hover {
+                    background-color: yellow; 
+                    color: #000;
+                }
+
+.maquina{
+            font-size:x-large;
+            font-family: 'Courier New', monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid;
+            animation: escribir 4s steps(30) infinite;
+        }
+@keyframes escribir {
+                        from { width: 0; }
+                        to { width: 100%; }
+                    }
+
+.zoom-hover {
+                font-size:x-large;
+                transition: transform 0.3s ease;
+            }
+
+.flotante   {
+                font-size:xx-large;
+                animation: flotar 2s ease-in-out infinite;
+            }
+@keyframes flotar   {
+                        0%, 100% { transform: translateY(0); }
+                        50% { transform: translateY(-5px); }
+                    }
+
+.borde-texto{
+                font-size:x-large;
+                color: black;
+                font-weight: bold;
+                -webkit-text-stroke: 1px yellow;
+            }
+
+form{
+        background-color: #ff69b4;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+label   {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+input, select   {
+                    width: 100%;
+                    padding: 8px;
+                    margin-top: 5px;
+                    border: 1px solid #3A998B;
+                    border-radius: 5px;
+                }
+
+.botones{
+            margin: 20px;
+        }
+
+.btn{
+        display: inline-block;
+        padding: 12px 24px;
+        margin: 10px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+    }
+.btn:hover  {
+                background-color: #0098a3;
+            }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="examen.html">SERVICIOS DE REVISIÓN VISUAL DISPONIBLES</a></li>
+                <li><a href="medico.html">PERFIL DEL MÉDICO</a></li>
+                <li><a href="pacientes.html">PACIENTES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+
+    <main>
+        <center>
+
+            <div class="flotante">
+                Registro de expediente de pacientes
+            </div>
+            <br>
+
+            <form method = "post">
+                    
+                <label for="nombre">NOMBRE DEL PACIENTE:</label>
+                <input type="text" id="nombre">
+                <br>
+
+                <label for="fecha">FECHA DE NACIMIENTO:</label>
+                <input type="date" id="fecha">
+                <br>
+
+                <label for="edad">EDAD:</label>
+                <input type="number" id="edad">
+                <br>
+                
+                <label for="sexo">SEXO:</label>
+                <input type="radio" id="femenino" name="sexo">FEMENINO<br>
+                <input type="radio" id="masculino" name="sexo">MASCULINO<br>
+
+                <label for="sangre">TIPO DE SANGRE:</label>
+                <input type="text" id="sangre">
+                <br>
+
+                <label for="correo">CORREO ELECTRÓNICO:</label>
+                <input type="email" id="correo">
+                <br>
+
+                <label for="domicilio">DOMICILIO:</label>
+                <input type="text" id="domicilio">
+                <br>
+
+                <label for="telefono">TELÉFONO:</label>
+                <input type="tel" id="telefono">
+                <br>
+                
+                <label for="enfermedades">ENFERMEDADES CRÓNICAS QUE PADECE EL PACIENTE:</label>
+                <input type="text" id="enfermedades">
+                <br>
+
+                <label for="antecedentes">ANTECEDENTES FAMILIARES DE ENFERMEDADES OCULARES DEL PACIENTE:</label>
+                <input type="text" id="antecedentes">
+                <br>
+
+                <label for="motivo">MOTIVO DE CONSULTA:</label>
+                <input type="text" id="motivo">
+                <br>
+
+                <label for="tratamiento">¿EL PACIENTE YA HA ESTADO BAJO UN TRATAMIENTO VISUAL?:</label>
+                <input type="text" id="tratamiento">
+                <br>
+
+            </form>
+
+            <div class="botones">
+            <a href="index.html" class="btn">GUARDAR EXPEDIENTE NUEVO</a>
+            </div>
+            <br>
+
+        </center>
+    </main>
+</body>
+</html>
